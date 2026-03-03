@@ -1,0 +1,9 @@
+@startuml
+actor Robot #red
+partcipant System
+
+Robot->System: Autentification request
+Robot->System: Start moving
+Robot->System: End moving 
+
+@enduml
