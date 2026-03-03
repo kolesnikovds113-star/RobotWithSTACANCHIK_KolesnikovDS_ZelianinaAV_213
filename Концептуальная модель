@@ -1,0 +1,9 @@
+@startuml
+class Robot
+Robot - Server : send signals <
+Server - Videocamera : send image <
+User - Videocamera : show sign >
+User - Robot : take and return >
+Dispenser - Server : send signals <
+Robot - Dispenser : waiting and docking >
+@enduml
